@@ -1,0 +1,22 @@
+{
+    "name": "macvim",
+    "displayName": "Macvim",
+    "description": "Not very accurate macvim colour scheme",
+    "version": "0.0.1",
+    "publisher": "ladydascalie",
+    "engines": {
+        "vscode": "^1.21.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Macvim",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Macvim-color-theme.json"
+            }
+        ]
+    }
+}
